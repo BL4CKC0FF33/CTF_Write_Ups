@@ -29,6 +29,6 @@ python3 reverse.py | caesar
 
 which resutled in giving us the 2nd and the 3rd part of the flag
 
-<img width="1423" alt="Screen Shot 2020-08-03 at 12 03 17 PM" src="https://user-images.githubusercontent.com/69141453/89166686-10f2c880-d583-11ea-81d2-735583ebe5ab.png">
-
 <img width="1425" alt="Screen Shot 2020-08-03 at 12 03 39 PM" src="https://user-images.githubusercontent.com/69141453/89166743-27008900-d583-11ea-88d2-43be580afdbd.png">
+
+<img width="1423" alt="Screen Shot 2020-08-03 at 12 03 17 PM" src="https://user-images.githubusercontent.com/69141453/89166686-10f2c880-d583-11ea-81d2-735583ebe5ab.png">
