@@ -86,8 +86,92 @@ ssh 'bandit6'@bandit.labs.overthewire.org -p 222
 ```
 pass: DXjZPULLxYr17uwoI01bNLQbtFemEgo7
 ```
+find / -user bandit7 -group bandit6 -size 33c
+cat /var/lib/dpkg/info/bandit7.password
+```
+based on the criteria finded the file path and catted it
+
+
+<h1>level7:</h1>
 
 ```
+ssh 'bandit7'@bandit.labs.overthewire.org -p 222
+```
+pass: HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
+```
+cat data.txt | grep "millionth"
+```
+
+
+<h1>level8:</h1>
+
+```
+ssh 'bandit8'@bandit.labs.overthewire.org -p 222
+```
+pass: cvX2JJa4CFALtqS87jk27qwqGhBM9plV
+```
+cat data.txt | sort | uniq -u
+```
+to get the none repetitive lines
+
+
+<h1>level9:</h1>
+
+```
+ssh 'bandit9'@bandit.labs.overthewire.org -p 222
+```
+pass: UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR
+```
+strings data.txt | grep -E '=+'
+```
+to get the regex of = many times
+
+
+<h1>level10:</h1>
+
+```
+ssh 'bandit10'@bandit.labs.overthewire.org -p 222
+```
+pass: truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk
+```
+cat data.txt | base64 --d
+```
+
+<h1>level11:</h1>
+
+```
+ssh 'bandit11'@bandit.labs.overthewire.org -p 222
+```
+pass: IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR
+```
+cat data.txt  | tr '[A-Za-z]' '[N-ZA-Mn-za-m]'
+```
+to decode ROT13
+
+
+<h1>level12:</h1>
+
+```
+ssh 'bandit12'@bandit.labs.overthewire.org -p 222
+```
+pass: 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
+```
+cat data.txt  | tr '[A-Za-z]' '[N-ZA-Mn-za-m]'
+```
+to decode ROT13
+
+
+<h1>level13:</h1>
+
+```
+ssh 'bandit13'@bandit.labs.overthewire.org -p 222
+```
+pass: 
+```
+
+```
+
+
 
 
 
