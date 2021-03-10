@@ -22,7 +22,7 @@ exit
 <h1>level1:</h1>
 
 ```
-ssh 'bandit1'@bandit.labs.overthewire.org -p 222
+ssh 'bandit1'@bandit.labs.overthewire.org -p 2220
 ```
 pass: boJ9jbbUNNfktd78OOpsqOltutMc3MY1
 
@@ -35,7 +35,7 @@ cat ./-
 <h1>level2:</h1>
 
 ```
-ssh 'bandit2'@bandit.labs.overthewire.org -p 222
+ssh 'bandit2'@bandit.labs.overthewire.org -p 2220
 ```
 pass: CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9
 
@@ -47,7 +47,7 @@ cat 'spaces in this filename'
 <h1>level3:</h1>
 
 ```
-ssh 'bandit3'@bandit.labs.overthewire.org -p 222
+ssh 'bandit3'@bandit.labs.overthewire.org -p 2220
 ```
 pass: UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK
 ```
@@ -57,7 +57,7 @@ cat ./inhere/.hidden
 <h1>level4:</h1>
 
 ```
-ssh 'bandit4'@bandit.labs.overthewire.org -p 222
+ssh 'bandit4'@bandit.labs.overthewire.org -p 2220
 ```
 pass: pIwrPrtPN36QITSp3EQaw936yaFoFgAB
 ```
@@ -70,7 +70,7 @@ fisrtly i had to know which is human-readable > ASCII and then read it
 <h1>level5:</h1>
 
 ```
-ssh 'bandit5'@bandit.labs.overthewire.org -p 222
+ssh 'bandit5'@bandit.labs.overthewire.org -p 2220
 ```
 pass: koReBOKuIDDepwhWk7jZC0RTdopnAYKh
 ```
@@ -82,7 +82,7 @@ the size was given so i searched by that and found that .file2 had the criteria
 <h1>level6:</h1>
 
 ```
-ssh 'bandit6'@bandit.labs.overthewire.org -p 222
+ssh 'bandit6'@bandit.labs.overthewire.org -p 2220
 ```
 pass: DXjZPULLxYr17uwoI01bNLQbtFemEgo7
 ```
@@ -95,7 +95,7 @@ based on the criteria finded the file path and catted it
 <h1>level7:</h1>
 
 ```
-ssh 'bandit7'@bandit.labs.overthewire.org -p 222
+ssh 'bandit7'@bandit.labs.overthewire.org -p 2220
 ```
 pass: HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
 ```
@@ -106,7 +106,7 @@ cat data.txt | grep "millionth"
 <h1>level8:</h1>
 
 ```
-ssh 'bandit8'@bandit.labs.overthewire.org -p 222
+ssh 'bandit8'@bandit.labs.overthewire.org -p 2220
 ```
 pass: cvX2JJa4CFALtqS87jk27qwqGhBM9plV
 ```
@@ -118,7 +118,7 @@ to get the none repetitive lines
 <h1>level9:</h1>
 
 ```
-ssh 'bandit9'@bandit.labs.overthewire.org -p 222
+ssh 'bandit9'@bandit.labs.overthewire.org -p 2220
 ```
 pass: UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR
 ```
@@ -130,7 +130,7 @@ to get the regex of = many times
 <h1>level10:</h1>
 
 ```
-ssh 'bandit10'@bandit.labs.overthewire.org -p 222
+ssh 'bandit10'@bandit.labs.overthewire.org -p 2220
 ```
 pass: truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk
 ```
@@ -140,7 +140,7 @@ cat data.txt | base64 --d
 <h1>level11:</h1>
 
 ```
-ssh 'bandit11'@bandit.labs.overthewire.org -p 222
+ssh 'bandit11'@bandit.labs.overthewire.org -p 2220
 ```
 pass: IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR
 ```
@@ -152,7 +152,7 @@ to decode ROT13
 <h1>level12:</h1>
 
 ```
-ssh 'bandit12'@bandit.labs.overthewire.org -p 222
+ssh 'bandit12'@bandit.labs.overthewire.org -p 2220
 ```
 pass: 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
 ```
@@ -185,7 +185,7 @@ cat data8
 <h1>level13:</h1>
 
 ```
-ssh 'bandit13'@bandit.labs.overthewire.org -p 222
+ssh 'bandit13'@bandit.labs.overthewire.org -p 2220
 ```
 pass: 8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL
 ```
@@ -217,7 +217,7 @@ echo BfMYroe26WYalil77FoDi9qh59eK5xNr | openssl s_client -ign_eof -connect local
 <h1>level16:</h1>
 
 ```
-ssh 'bandit16'@bandit.labs.overthewire.org -p 222
+ssh 'bandit16'@bandit.labs.overthewire.org -p 2220
 ```
 pass: cluFn7wTiGryunymYOu4RcffSxQluehd
 ```
@@ -279,7 +279,7 @@ cat readme
 <h1>level19:</h1>
 
 ```
-ssh 'bandit19'@bandit.labs.overthewire.org -p 222
+ssh 'bandit19'@bandit.labs.overthewire.org -p 2220
 ```
 pass: IueksS7Ubh8G3DCwVzrTd8rAVOwq3M5x
 ```
@@ -294,7 +294,7 @@ used the permissions of bandit20-do to read /etc/bandit_pass/bandit20
 <h1>level20:</h1>
 
 ```
-ssh 'bandit20'@bandit.labs.overthewire.org -p 222
+ssh 'bandit20'@bandit.labs.overthewire.org -p 2220
 ```
 pass: GbKksEFF4yrVs6il55v6gwY5aVje5f0j
 ```
