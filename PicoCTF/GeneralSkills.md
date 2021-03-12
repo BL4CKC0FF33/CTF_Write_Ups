@@ -1,8 +1,6 @@
 https://play.picoctf.org/practice
 
 
-<h1>1-GENERAL SKILLS:</h1>
-
 <h1>challenge86</h1> 
 https://play.picoctf.org/practice/challenge/86
 
