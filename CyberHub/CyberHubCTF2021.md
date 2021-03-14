@@ -39,7 +39,7 @@ cyberhub{750299-260277-467248}
 cat dropthebase.txt 
 ```
 gives: INMUERKSJBKUE6ZTL4ZUGMZWGVDDSNS7GMZF6MJVL5EDITCGL4YEMXZWGR6Q====
-which turend out after alot of thinking that it was base64, that it was base32
+which turned out after alot of thinking that it wasnt base64, that it was base32
 [using](https://www.dcode.fr/base-32-encoding) i decoded it
 ```
 CYBERHUB{3_3C365F96_32_15_H4LF_0F_64}
