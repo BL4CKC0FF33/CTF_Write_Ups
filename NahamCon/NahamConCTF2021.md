@@ -121,6 +121,16 @@ D'`r#LK\[}{{EUUTet,r*qo'nmlk5ihVB0S!>w<<)9xqYonsrqj0hPlkdcb(`Hd]#a`_A@VzZY;Qu8NM
 flag{bf201f669b8c4adf8b91f09165ec8c5c}
 ```
 
+<h1>Challenge - Chicken Wings</h1>
+
+![7](https://user-images.githubusercontent.com/69141453/111180183-269d8700-8583-11eb-98eb-64b59ce4cd09.png)
+
+i had no idea what to do with the output of catting the file, so i googled it and found an online website to decode it
+
+![77](https://user-images.githubusercontent.com/69141453/111180408-65cbd800-8583-11eb-9edb-fbf0cd68aa45.png)
+![777](https://user-images.githubusercontent.com/69141453/111180349-577dbc00-8583-11eb-8f87-f07941395205.png)
+
+
 <h1>Challenge - The Mission</h1>
 
 ![3](https://user-images.githubusercontent.com/69141453/111176961-2d76ca80-8580-11eb-8227-5523d660e3de.png)
@@ -145,6 +155,16 @@ git show
 ```
 flag{4063962f3a52f923ddb4411c139dd24c}
 ```
+
+<h1>Challenge - Bionic</h1>
+
+![6](https://user-images.githubusercontent.com/69141453/111179941-eccc8080-8582-11eb-840e-6c4f62426eb0.png)
+
+i went to the linked page but nothing was unusual so i tried /robots.txt which worked and found the flag
+
+![66](https://user-images.githubusercontent.com/69141453/111180655-9f044800-8583-11eb-8673-4799b5f88bce.png)
+
+
 
 <h1>Challenge - Gus</h1>
 
@@ -202,4 +222,12 @@ which led to this page but i had to enumerate to folder 5 to find the flag
 
 
 
+![8](https://user-images.githubusercontent.com/69141453/111179538-8e9f9d80-8582-11eb-95de-0c43acdea5b0.png)
+![9](https://user-images.githubusercontent.com/69141453/111179546-8fd0ca80-8582-11eb-9a80-c10c0070cb90.png)
+![10](https://user-images.githubusercontent.com/69141453/111179553-919a8e00-8582-11eb-8e2f-27165c7d4a25.png)
+![1](https://user-images.githubusercontent.com/69141453/111179594-9bbc8c80-8582-11eb-9096-db502d18a5aa.png)
+![2](https://user-images.githubusercontent.com/69141453/111179598-9cedb980-8582-11eb-9d7c-d3a0ef5dda97.png)
+![3](https://user-images.githubusercontent.com/69141453/111179602-9e1ee680-8582-11eb-847d-a37dfb1f383c.png)
+![55](https://user-images.githubusercontent.com/69141453/111179726-babb1e80-8582-11eb-959f-57e886a73c24.png)
+![55](https://user-images.githubusercontent.com/69141453/111180286-45038280-8583-11eb-8bdc-ea871378e949.png)
 
