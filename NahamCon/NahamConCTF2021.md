@@ -105,10 +105,93 @@ its not a direct ceasar cipher, first you have to decypher it via keyed-ceasar t
 ![99](https://user-images.githubusercontent.com/69141453/111136950-a2340f80-8554-11eb-9ad7-cdd1af184008.png)
 ![999](https://user-images.githubusercontent.com/69141453/111136979-aa8c4a80-8554-11eb-8897-67f1f6c9a049.png)
 
+```
+flag{6f980c0101c8aa361977cac06508a3de}
+```
+
+<h1>Challenge - Eighth Circle</h1>
+
+![1](https://user-images.githubusercontent.com/69141453/111176394-ae819200-857f-11eb-9900-79f35163d4ed.png)
+
+at first i googled it and i got hellish stuff xD then i got a hint about [malbolge](https://malbolge.doleczek.pl/) to decode:
+```
+D'`r#LK\[}{{EUUTet,r*qo'nmlk5ihVB0S!>w<<)9xqYonsrqj0hPlkdcb(`Hd]#a`_A@VzZY;Qu8NMRQJn1MLKJCg*)ED=a$:?>7[;:981w/4-,P*p(L,%*)"!~}CB"!~}_uzs9wpotsrqj0Qmfkdcba'H^]\[Z~^W?[TSRWPt7MLKo2NMFj-IHG@dD&<;@?>76Z{9276/.R21q/.-&J*j(!E%$d"y?`_{ts9qpon4lTjohg-eMihg`&^cb[!_X@VzZ<RWVOTSLpP2HMFEDhBAFE>=BA:^8=6;:981Uvu-,10/(Lm%*)(!~D1 
+```
+```
+flag{bf201f669b8c4adf8b91f09165ec8c5c}
+```
+
+<h1>Challenge - The Mission</h1>
+
+![3](https://user-images.githubusercontent.com/69141453/111176961-2d76ca80-8580-11eb-8227-5523d660e3de.png)
+
+after visiting the linked page all i did was ***inspect page*** and found the flag in the comments
 
 
+<h1>Challenge - Meet The Team</h1>
+
+![2](https://user-images.githubusercontent.com/69141453/111177211-6616a400-8580-11eb-9d14-0f12a5b80f5c.png)
+
+as for this challenge it says meet the team but the page doesnt display team members due to security but there was a github link in the page, and in that link i got the github repo by gitdump 
+
+![22222](https://user-images.githubusercontent.com/69141453/111178643-be9a7100-8581-11eb-8e2e-c32bf2e9f1c8.png)
+![22](https://user-images.githubusercontent.com/69141453/111178074-2f8d5900-8581-11eb-8d06-b3effb8c436c.png)
+
+```
+./GitTools/Dumper/gitdumper.sh http://constellations.page/.git/ git
+cd git/.git
+git show
+```
+```
+flag{4063962f3a52f923ddb4411c139dd24c}
+```
+
+<h1>Challenge - Gus</h1>
+
+![3](https://user-images.githubusercontent.com/69141453/111177735-e76e3680-8580-11eb-81d2-1ee0951809d8.png)
+
+i had to dig the github since its a team member, then checked the commits one by one until i found a flag
+
+![222](https://user-images.githubusercontent.com/69141453/111178153-403dcf00-8581-11eb-84e0-21e90f300ed0.png)
+![2222](https://user-images.githubusercontent.com/69141453/111178200-4a5fcd80-8581-11eb-8e0e-0d32a8cea28c.png)
+
+```
+flag{84d5cc7e162895fa0a5834f1efdd0b32}
+```
 
 
+<h1>Challenge - Hercules</h1>
+
+![4](https://user-images.githubusercontent.com/69141453/111178402-7d09c600-8581-11eb-9ee7-887a451a143e.png)
+
+i checked the followers of gus and found someone named Hercules
+
+![44](https://user-images.githubusercontent.com/69141453/111178494-97dc3a80-8581-11eb-9850-2fcc42bc1776.png)
+
+i checked his commits and got the flag
+
+![444](https://user-images.githubusercontent.com/69141453/111178532-a591c000-8581-11eb-81aa-26f8821d93e7.png)
+![4444](https://user-images.githubusercontent.com/69141453/111178585-b2aeaf00-8581-11eb-9c88-8e78f6603d4b.png)
+
+
+<h1>Challenge - Lyra</h1>
+
+![5](https://user-images.githubusercontent.com/69141453/111178712-cce88d00-8581-11eb-95ba-28c345bf5bbd.png)
+
+lyra's full name was in the git file
+```
+git show
+```
+
+![5555](https://user-images.githubusercontent.com/69141453/111178795-de319980-8581-11eb-9c06-f49ef8c208d8.png)
+
+after that googled her name lyra patte with constellations and found her twitter account with this post 
+
+![555](https://user-images.githubusercontent.com/69141453/111179043-12a55580-8582-11eb-9e97-5843eb5f6370.png)
+
+which led to this page but i had to enumerate to folder 5 to find the flag
+
+![55](https://user-images.githubusercontent.com/69141453/111179246-408a9a00-8582-11eb-8e20-6068e8a89cbe.png)
 
 
 
