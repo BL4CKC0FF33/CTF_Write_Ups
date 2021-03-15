@@ -83,3 +83,40 @@ so i thought maybe [reverse](https://codebeautify.org/reverse-string) the string
 ![444](https://user-images.githubusercontent.com/69141453/111121248-c981e100-8542-11eb-8228-984bd98cbbaa.png)
 ![4444](https://user-images.githubusercontent.com/69141453/111121275-d272b280-8542-11eb-8d1e-f93dc28f71de.png)
 
+
+<h1>Challenge - Veebee</h1>
+
+![8](https://user-images.githubusercontent.com/69141453/111136749-6ef18080-8554-11eb-8dc7-f358f0839337.png)
+
+using johnHammond's [vbe-decoder](https://github.com/JohnHammond/vbe-decoder/blob/master/vbe-decoder.py) gave the flag
+```
+python3 decode-vbe.py veebee.vbe 
+```
+```
+flag{f805593d933f5433f2a04f082f400d8c}
+```
+
+<h1>Challenge - Car Keys</h1>
+
+![9](https://user-images.githubusercontent.com/69141453/111136867-8df01280-8554-11eb-9516-bac29e92e686.png)
+
+its not a direct ceasar cipher, first you have to decypher it via keyed-ceasar then normal ceasar
+
+![99](https://user-images.githubusercontent.com/69141453/111136950-a2340f80-8554-11eb-9ad7-cdd1af184008.png)
+![999](https://user-images.githubusercontent.com/69141453/111136979-aa8c4a80-8554-11eb-8897-67f1f6c9a049.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
