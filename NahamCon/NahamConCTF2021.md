@@ -251,5 +251,4 @@ which led to this page but i had to enumerate to folder 5 to find the flag
 <h1>Challenge - Feedback</h1>
 
 ![55](https://user-images.githubusercontent.com/69141453/111179726-babb1e80-8582-11eb-959f-57e886a73c24.png)
-![55](https://user-images.githubusercontent.com/69141453/111180286-45038280-8583-11eb-8bdc-ea871378e949.png)
 
