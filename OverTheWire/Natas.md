@@ -5,6 +5,9 @@ https://overthewire.org/wargames/natas/
 visiting http://natas0.natas.labs.overthewire.org/
 
 inspect and found the password as a comment 
+
+![0](https://user-images.githubusercontent.com/69141453/113185121-0c6ed480-9224-11eb-879e-a2fef638d805.png)
+
 ```
 <!--The password for natas1 is gtVrDuiDfck831PqWsLEZy5gyDz1clto-->
 ```
@@ -70,6 +73,9 @@ Access granted. The password for natas5 is iX6IOfmpN7AYOQGPwtn3fXpbaJVJcHfq
 visiting http://natas5.natas.labs.overthewire.org/
 
 in inspect code > storage i changed the cookie loggedin:0 to loggedin:1 and refreshed the page 
+
+![5](https://user-images.githubusercontent.com/69141453/113185066-fbbe5e80-9223-11eb-9510-cccb58f70588.png)
+
 ```
 Access granted. The password for natas6 is aGoY4q2Dc6MgDq4oL4YtoKtyAg9PeHa1
 ```
