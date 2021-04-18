@@ -32,7 +32,7 @@ looks like whitespace cipher so i searched for tools until i found stegsnow
 ```
 stegsnow -C headup.txt
 ```
-but this gave nonsense so i needed a password, which was in the plotted picture, it was constellations, after googling it and trying constellations names, "orion" was the password 
+but this gave nonsense so i needed a password, the name was a hint (heads up = on earth look up = start), which was in the plotted picture, it was constellations, after googling it and trying constellations names, "orion" was the password 
 
 ```
 stegsnow -C -p "orion" headup.txt
@@ -41,3 +41,5 @@ stegsnow -C -p "orion" headup.txt
 ```
 ICTF{Fr0m_Out3r_W0RLD} 
 ```
+[BL4CKC0FF33 ☕](https://github.com/BL4CKC0FF33/)
+
